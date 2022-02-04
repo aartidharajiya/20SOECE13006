@@ -5,7 +5,7 @@ var route=require('./route');
 var bodyparser=require('body-parser');
 
 // mongoose.connect('mongodb://localhost:27017/books').then(()=>{
-    mongoose.connect('mongodb+srv://aarti_dharajiya_user:@dharajiya93@cluster0.kdsls.mongodb.net/db?retryWrites=true&w=majority').then(()=>{
+    mongoose.connect('mongodb+srv://admin:admin99@cluster0.kdsls.mongodb.net/db?retryWrites=true&w=majority').then(()=>{
     // mongodb+srv://aarti_dharajiya_user:<password>@cluster0.kdsls.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 
     
