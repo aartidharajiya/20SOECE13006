@@ -13,6 +13,9 @@ var bodyparser=require('body-parser');
     var app=express();
     app.use(bodyparser.urlencoded({extended:false}));
     app.use('/api',route);
+    app.get('/',(req,res)=>{
+        res.sendFile('index.html',{root:__dirname});
+    })
     app.listen(3000,()=>{
         console.log('Server connected');
     })
